@@ -1,5 +1,4 @@
 using System;
-//eeeeeeeeeeeeeeeeeeeeeeeee
 class Journal
     {
         private List<Entry> _entries = new List<Entry>();

@@ -1,6 +1,4 @@
 using System;
-//eeeeeeeeeeeee
-
 internal class Program
 {
     private static void Main(string[] args)

@@ -1,5 +1,4 @@
     using System;
-    //eeeeeeeeeeeeee
     class PromptGenerator
     {
         public List<string> _prompts;

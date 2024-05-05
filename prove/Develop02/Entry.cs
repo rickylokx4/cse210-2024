@@ -1,5 +1,4 @@
 using System;
-
 class Entry
 {
   public string _prompt { get; set; }
