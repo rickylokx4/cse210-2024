@@ -2,7 +2,7 @@ using System;
 
 class GoalManager
 {
-    List<Goal> _goals = new List<Goal>();
+    private List<Goal> _goals = new List<Goal>();
     private int _score;
 
     public GoalManager()

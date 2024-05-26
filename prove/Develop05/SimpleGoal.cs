@@ -2,7 +2,7 @@ using System;
 public class SimpleGoal : Goal
 {
     private bool _isComplete;
-    string _goalType = "SimpleGoal";
+    private string _goalType = "SimpleGoal";
 
     public SimpleGoal(string name, string description, string points) : base (name, description,points)
     {
