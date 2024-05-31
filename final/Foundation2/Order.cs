@@ -4,9 +4,9 @@ public class Order
     private List<Product> _products = new List<Product>();
     private Customer _customer;
     
-    public Order(string costumerName, string streetAdress, string city, string stateOrProvince, string country)
+    public Order(string costumerName, string streetAddress, string city, string stateOrProvince, string country)
     {
-        _customer = new Customer(costumerName, streetAdress, city, stateOrProvince, country);
+        _customer = new Customer(costumerName, streetAddress, city, stateOrProvince, country);
     }
 
     public void AddProduct(string productName, string productId, double price, int quantity)
@@ -46,6 +46,6 @@ public class Order
     {
         Console.WriteLine("---Shipping Label---");
         Console.WriteLine($"Customer: {_customer.GetCustomerName()}");
-        Console.WriteLine($"Adress: {_customer.GetFullAdress()}\n");
+        Console.WriteLine($"Address: {_customer.GetFullAddress()}\n");
     }
 }

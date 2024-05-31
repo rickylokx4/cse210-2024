@@ -2,11 +2,11 @@ using System;
 public class Customer
 {
     private string _customerName;
-    private Adress _adress;
-    public Customer(string customerName, string streetAdress, string city, string stateOrProvince, string country)
+    private Address _adress;
+    public Customer(string customerName, string streetAddress, string city, string stateOrProvince, string country)
     {
         _customerName = customerName;
-        _adress = new Adress(streetAdress, city, stateOrProvince, country);
+        _adress = new Address(streetAddress, city, stateOrProvince, country);
     }
     public string GetCustomerName()
     {
@@ -16,7 +16,7 @@ public class Customer
     {
         return _adress.LivingInUsa();
     }
-    public string GetFullAdress()
+    public string GetFullAddress()
     {
         return $"{_adress.GetFullAdress()}";
     }

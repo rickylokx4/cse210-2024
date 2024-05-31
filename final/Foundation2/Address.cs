@@ -1,12 +1,12 @@
 using System;
-public class Adress
+public class Address
 {
     private string _streetAdress;
     private string _city;
     private string _stateOrProvince;
     private string _country;
 
-    public Adress(string streetAdress, string city, string stateOrProvince, string country)
+    public Address(string streetAdress, string city, string stateOrProvince, string country)
     {
         _streetAdress = streetAdress;
         _city = city;
