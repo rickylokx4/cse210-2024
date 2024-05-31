@@ -9,7 +9,6 @@ class Program
         job1._company = "Apple";
         job1._startYear = 2001;
         job1._endYear = 2005;
-
         Job job2 = new Job();
         job2._jobTitle = "Manager";
         job2._company = "Microsoft";
