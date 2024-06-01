@@ -18,12 +18,12 @@ public class Event
     }
     public void DisplayStandarDetails()
     {
-        Console.WriteLine($"---Details of the Event---\nEvent: {_eventTitle}\nDescription: {_description}\nDate: {_date} Time: {_time}\nAddress: {_address.GetAddress()}.\n");
+        Console.WriteLine($"---Details of the Event---\nEvent: {_eventTitle}\nDescription: {_description}\nDate: {_date} Time: {_time}\nAddress: {_address.GetAddress()}\n");
     }
 
     public void DisplayShortDescription()
     {
-        Console.WriteLine($"---Short Description---\n{_eventType}\nEvent:{_eventTitle}\nDate: {_date}\n");
+        Console.WriteLine($"---Short  Description---\n{_eventType}\nEvent:{_eventTitle}\nDate: {_date}\n");
     }
 
 

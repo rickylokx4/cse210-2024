@@ -15,7 +15,7 @@ public class RecepetionEvent : Event
     
     public void DisplayFullDetails()
     {
-        Console.WriteLine($"---Full Details---\n{_eventType}\nEvent: {_eventTitle}\nDescription: {_description}\nDate: {_date} Time: {_time}\nAddress: {_address.GetAddress()}\nRecervetions: {_email}\n");
+        Console.WriteLine($"---Full  Details---\n{_eventType}\nEvent: {_eventTitle}\nDescription: {_description}\nDate: {_date} Time: {_time}\nAddress: {_address.GetAddress()}\nRecervetions: {_email}\n");
     }
     
 }

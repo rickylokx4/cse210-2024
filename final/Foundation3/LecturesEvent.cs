@@ -17,7 +17,7 @@ public class LecturesEvent : Event
 
     public void DisplayFullDetails()
     {
-        Console.WriteLine($"---Full Details---\n{_eventType}\nEvent: {_eventTitle}\nDescription: {_description}\nSpeaker: {_speaker} \nDate: {_date} Time: {_time}\nAddress: {_address.GetAddress()}\nCapacity: {_capacityLimit} people.\n");
+        Console.WriteLine($"---Full  Details---\n{_eventType}\nEvent: {_eventTitle}\nDescription: {_description}\nSpeaker: {_speaker} \nDate: {_date} Time: {_time}\nAddress: {_address.GetAddress()}\nCapacity: {_capacityLimit} people.\n");
     }
     
 }

@@ -16,7 +16,7 @@ public class OutdoorGateringEvent : Event
 
 public void DisplayFullDetails()
     {
-        Console.WriteLine($"---Full Details---\n{_eventType}\nEvent: {_eventTitle}\nDescription: {_description}\nDate: {_date} Time: {_time}\nAddress: {_address.GetAddress()}\nThe Weather will be {_weather}\n");
+        Console.WriteLine($"---Full  Details---\n{_eventType}\nEvent: {_eventTitle}\nDescription: {_description}\nDate: {_date} Time: {_time}\nAddress: {_address.GetAddress()}\nThe Weather will be {_weather}\n");
 
     }
 

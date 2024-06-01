@@ -16,14 +16,10 @@ class Program
         recepetionEvent.DisplayFullDetails();
         recepetionEvent.DisplayShortDescription();
 
-        OutdoorGateringEvent outdoorGateringEvent = new OutdoorGateringEvent("John and Maria's wedding.", "April 25","9:00 A.m.","Join us to celebrate the wedding of John and Maria who with a lot of love decided to unite their lives.", "Sunny.");
+        OutdoorGateringEvent outdoorGateringEvent = new OutdoorGateringEvent("John and Maria's wedding.", "April 25","9:00 A.m.","Join us to celebrate the wedding of John and Maria who with a love decided to unite their lives.", "Sunny.");
         outdoorGateringEvent.SetAddress("3254 South Buckner Blvd", "Dallas", "Texas", "USA");
         outdoorGateringEvent.DisplayStandarDetails();
         outdoorGateringEvent.DisplayFullDetails();
         outdoorGateringEvent.DisplayShortDescription();
-
-
-
-
     }
 }

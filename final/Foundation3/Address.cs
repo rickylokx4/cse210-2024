@@ -17,7 +17,7 @@ public class Address
 
     public string GetAddress()
     {
-        return $"{_streetAdress} {_city} {_stateOrProvince} {_country}";
+        return $"{_streetAdress} {_city} {_stateOrProvince} {_country}.";
     }
 
     // public Address(string streetAdress, string city, string stateOrProvince, string country)
