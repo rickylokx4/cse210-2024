@@ -1,6 +1,4 @@
 using System;
-using System.Diagnostics;
-
 public class LecturesEvent : Event 
 {
     private string _speaker;
